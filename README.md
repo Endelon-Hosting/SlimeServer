@@ -1,0 +1,2 @@
+# SlimeServer
+ Slime Minecraft Server
