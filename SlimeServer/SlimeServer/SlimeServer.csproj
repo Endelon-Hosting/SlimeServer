@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,6 +8,14 @@
   <ItemGroup>
     <PackageReference Include="Dalk.PropertiesSerializer" Version="1.0.3" />
     <PackageReference Include="Spectre.Console" Version="0.43.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SlimeFramework\SlimeFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ModdingEngine\RegistryCollections\" />
   </ItemGroup>
 
 </Project>

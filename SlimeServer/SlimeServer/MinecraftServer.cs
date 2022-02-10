@@ -1,5 +1,6 @@
 ﻿using Dalk.PropertiesSerializer;
 using SlimeServer.Models;
+using SlimeServer.ModFramework;
 using Spectre.Console;
 using System;
 using System.IO;
@@ -45,6 +46,7 @@ namespace SlimeServer
         {
             Logger.Info("Starting Server");
             CheckEula();
+            ModificationManager.Start();
         }
 
         public void Initialize(string[] args)

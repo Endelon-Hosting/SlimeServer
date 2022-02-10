@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="source.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="source.txt" />
+  </ItemGroup>
+
+</Project>
