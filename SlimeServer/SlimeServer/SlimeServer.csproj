@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -12,10 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SlimeFramework\SlimeFramework.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ModdingEngine\RegistryCollections\" />
   </ItemGroup>
 
 </Project>
