@@ -1,4 +1,6 @@
-﻿using Spectre.Console;
+﻿using Logging.Net;
+using Logging.Net.Spectre;
+using Spectre.Console;
 using System;
 using System.IO;
 
@@ -10,6 +12,7 @@ namespace SlimeServer
 
         public static int Main(string[] args)
         {
+            Logger.UsedLogger = new SpectreLogger();
             return Crashhandler(Application, args);
         }
 

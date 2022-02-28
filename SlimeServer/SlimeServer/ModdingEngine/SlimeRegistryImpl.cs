@@ -1,7 +1,5 @@
 ﻿using SlimeFramework.GameContent;
 using SlimeFramework.Internal;
-using System;
-
 
 namespace SlimeServer.ModdingEngine
 {
@@ -97,7 +95,7 @@ namespace SlimeServer.ModdingEngine
         #region RegisterAny
         public override void Register<T>(T t)
         {
-            if(t is Block block)
+            if (t is Block block)
             {
                 Blocks.Register(block);
             }
@@ -113,7 +111,7 @@ namespace SlimeServer.ModdingEngine
             {
                 Foods.Register(food);
             }
-            else if(t is Fuel fuel)
+            else if (t is Fuel fuel)
             {
                 Fuels.Register(fuel);
             }

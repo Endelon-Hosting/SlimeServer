@@ -1,5 +1,4 @@
 ﻿using SlimeServer.ModdingEngine;
-using System;
 
 namespace SlimeServer.ModFramework
 {

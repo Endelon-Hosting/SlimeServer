@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MCSharp" Version="0.0.2" />
+  </ItemGroup>
+
 </Project>

@@ -7,11 +7,28 @@
 
   <ItemGroup>
     <PackageReference Include="Dalk.PropertiesSerializer" Version="1.0.3" />
+    <PackageReference Include="Logging.Net.Spectre" Version="1.0.0" />
+    <PackageReference Include="MCSharp" Version="0.0.2" />
     <PackageReference Include="Spectre.Console" Version="0.43.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SlimeFramework\SlimeFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Extensions\ResourceFiles.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ResourceFiles.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Extensions\ResourceFiles.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceFiles.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
